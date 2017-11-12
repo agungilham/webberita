@@ -1,0 +1,435 @@
+header{
+	background-color : #000000;
+	height: 180px; 
+	width: 100%;
+
+}
+#margin{
+	margin: 0;
+	
+}
+
+
+
+
+/*css menu */
+#menu{
+	width: 100%;
+	height: 40px;
+	background-color:black;
+	position: relative; 
+}
+
+/* pengaturan menu */
+#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+#menu ul li{
+	float: left;
+}
+
+#menu ul li a {
+	float: left;
+	color: #d4d4d4;
+	padding: 5px 55px; /* mengatur besar menu */
+	text-decoration: none;
+	background: black;
+	border-left: 1px solid #3c4042;
+	border-right: 1px solid #3c4042;
+	text-shadow: 0-1px 1px rgba(0,0,0.6);
+	font-size: 25px;
+	alignment-baseline: central;
+}
+#menu ul li a:hover{
+color: white;
+background: #3c4042;
+}
+
+
+
+#sidebar{
+	padding: 5px;
+	width: 27%;
+	background-color:none;
+	position: relative;
+	float: right;
+
+	
+
+}
+/*pengaturan widget sidebar*/
+.widget{
+	width: :99%;
+	height: 150px;
+
+}
+/*pengaturan huruf judul widged*/
+.judulwidged{
+	background: #d74006;
+	padding: 5px 10px 5px 10px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 5px;
+
+}
+.widged ul{
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+}
+.widged li{
+	padding: 10px 10px 10px 10px; /*top right bottom left*/
+	background-position: left;
+	background-repeat: no-repeat;
+	color: #333333;
+}
+.widged li a{
+	color: #333333;
+	border-bottom: 10px dotted #cccccc; /*mengatur titik dibawah kalimat */
+	text-decoration: none;
+	display: block;
+	margin-bottom: 5px;
+	padding: 15px 15px 3px 10px;
+}
+.widged li a:hover{
+	color: blue;
+}
+
+
+
+/*pengaturan isi postingan*/
+#isi{
+	padding: 1px;
+	width: 50%
+	height:auto;
+	
+	position: relative;
+	margin-top: 5px;
+}
+/*pengaturan posting*/
+.isiposting{
+	background-color: #bc9d64;
+	width: 98%;
+	height: 150px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+/*pengaturan gambar yg di halaman depan*/
+.gambardepan{
+	float: left;
+	height: 612px;
+	width: 900px;
+	margin-right: 5px;
+	margin-top: 3px;
+	padding: 1px;
+	border:1px solid #dddddd;
+}
+.gambarpanda{
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-right: 5px;
+	margin-top: 3px;
+	padding: 1px;
+	border:1px solid #dddddd;
+}
+.home h1{
+	background: #d74006;
+	padding: 5px 10px 5px 10px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+/*pengaturan heading" "judul"*/
+.isiposting h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 4px;
+	margin-bottom: 3px;
+}
+/*pengaturan anchor atau link yang ada di isi posting */
+.isiposting a:hover{
+	color: yellow;
+}header{
+	background-color : #000000;
+	height: 180px; 
+	width: 100%;
+}
+form {
+float: right;
+    width:600px; /* untuk menggeser ke kiri dan kanan kolom search */
+    margin:30px auto; /* untuk menggeser ke atas dan ke bawah kolom search */
+}
+.search {
+    padding:10px 50px;
+    background:grey;
+    border:0px solid grey;
+}
+.button {
+    position:relative;
+    padding:10px 10px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:red;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+
+
+/*.login{
+
+	font-size: 18px;
+	color: orange;
+	font-family: arial;
+}
+.register{
+	
+	font-size: 18px;
+	color: orange;
+	font-family: arial;
+}
+.garis{
+	color: orange;
+	font-size: 30px;*/
+
+}
+
+
+
+
+/*css menu */
+#menu{
+	width: 100%;
+	height: 40px;
+	background-color:black;
+	position: relative; 
+}
+
+/* pengaturan menu */
+#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+#menu ul li{
+	float: left;
+}
+
+#menu ul li a {
+	float: left;
+	color: #d4d4d4;
+	padding: 5px 55px; /* mengatur besar menu */
+	text-decoration: none;
+	background: black;
+	border-left: 1px solid #3c4042;
+	border-right: 1px solid #3c4042;
+	text-shadow: 0-1px 1px rgba(0,0,0.6);
+	font-size: 25px;
+	alignment-baseline: central;
+}
+#menu ul li a:hover{
+color: white;
+background: #3c4042;
+}
+
+
+
+#sidebar{
+	padding: 5px;
+	width: 27%;
+	background-color:none;
+	position: relative;
+	float: right;
+
+	
+
+}
+/*pengaturan widget sidebar*/
+.widget{
+	width: :99%;
+	height: 150px;
+
+}
+/*pengaturan huruf judul widged*/
+.judulwidged{
+	background: #d74006;
+	padding: 5px 10px 5px 10px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 5px;
+
+}
+td{
+	background-color: lightblue;
+
+}
+.widged ul{
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+	
+}
+.widged li{
+	padding: 10px 10px 10px 10px; /*top right bottom left*/
+	background-position: left;
+	background-repeat: no-repeat;
+	color: #333333;
+	background-color: pink; /*untuk mewarnai sisi atas tabel*/
+}
+.widged li a{
+	color: #333333;
+	border-bottom: 5px dotted #cccccc; /*mengatur titik dibawah kalimat */
+	text-decoration: none;
+	display: block;
+	margin-bottom: 5px;
+	padding: 15px 15px 3px 10px;
+	font-size: 30px;
+	background-color: pink; /*untuk mewarnai sisi tengah tabel*/
+}
+.widged li a:hover{
+	color: blue;
+}
+
+
+
+/*pengaturan isi postingan*/
+#isi{
+	padding: 1px;
+	width: 50%
+	height:auto;
+	
+	position: relative;
+	margin-top: 5px;
+}
+.bg{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	float: left;
+	left: 0;
+}
+
+}
+/*pengaturan posting*/
+.isiposting{
+	background-color: #bc9d64;
+	width: 98%;
+	height: 150px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+/*pengaturan gambar yg di halaman depan*/
+.gambardepan{
+	float: left;
+	height: 612px;
+	width: 900px;
+	margin-right: 5px;
+	margin-top: 3px;
+	padding: 1px;
+	border:1px solid #dddddd;
+}
+.gambarpanda{
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-right: 5px;
+	margin-top: 3px;
+	padding: 1px;
+	border:1px solid #dddddd;
+}
+.home h1{
+	background: #d74006;
+	padding: 5px 10px 5px 10px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+/*pengaturan heading" "judul"*/
+.isiposting h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 4px;
+	margin-bottom: 3px;
+}
+.gambarpost{	/*untuk mengatur gambar postingan*/
+	margin-left: 500px;
+	float: center;
+	margin-top: 10px;
+	height: 500px;
+	width: 1000px;
+}
+.text{  	/*untuk mengatur text postingan */
+	text-align: justify;
+	padding-right: 2em;
+	line-height: 50px;
+	width: 800px;
+	font-family: "calibri light";
+}
+.judul{
+	float: center;
+}
+
+
+/*pengaturan anchor atau link yang ada di isi posting */
+.isiposting a:hover{
+	color: yellow;
+}
+
+
+
+.tablelog{
+	height: 30px;
+}
+.next{
+
+}
+
+.gambarbawah{
+	width: 200px;
+}
+/*footer {
+	border-top: solid black 1px;
+	height: 30px;
+	width: 100%;
+	top:950px;
+	position: absolute;
+	text-align: center;
+	font-size: 30px;
+
+}
+#gambarbawah {
+	width: 100%;
+	top:850px;
+	position: absolute;
+	text-align: center;
+
+}
+#gambarbawah img {
+	width: 250px;
+}*/
+
